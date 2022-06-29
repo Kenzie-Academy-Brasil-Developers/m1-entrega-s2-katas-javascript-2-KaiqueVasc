@@ -7,6 +7,12 @@ function add(num1,num2){
 
 
 // comece a criar a sua função multiply na linha abaixo
+    /*i     result
+    1       10
+    2       20
+    3       30
+    4       40
+    5       50 */
 
 function multiply(num1,num2){
     let result = 0
@@ -21,6 +27,16 @@ console.log(multiply(10,5))
 
 // comece a criar a sua função power na linha abaixo
 
+   /* i     result
+    1       2
+    2       4
+    3       8
+    4      16
+    5      32
+    6      64
+    7      128
+    8      256 */
+
 function power (x,n){
     let result = 1
     for( let i = 1 ; i <= n ; i++){
@@ -32,6 +48,12 @@ console.log(power(2,8))
 
 // comece a criar a sua função factorial na linha abaixo
 
+  /* i  result
+   4   4x3
+   3   12x2
+   2   24x1
+   1     */
+
 function fatorial (x){
     let result = x
     for(i = x-1 ; i >= 1; i--){
@@ -41,11 +63,11 @@ function fatorial (x){
 }     
   console.log(fatorial(4))
 
-/**
- * BONUS (aviso: o grau de dificuldade é bem maior !!!)
- */
+
 
 // crie a função fibonacci
+
+ 
 
 
 // descomente a linha seguinte para testar sua função
